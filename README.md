@@ -30,7 +30,7 @@
 </head>
 <body>
   <h1>Welcome to Nash LK</h1>
-  <p>Your first website made on a phone 🚀</p>
+  <p>hii i am a content creater in sri lanka</p>
   <button onclick="alert('Hello from Nash LK!')">Click Me</button>
 </body>
 </html>
