@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NASH LK – Travel & Food Vlogs</title>
+  <!-- Font Awesome for social media & location icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+    }
+    header {
+      background: #111;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 16px;
+    }
+    nav a:hover {
+      color: #00bcd4;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero img {
+      width: 200px;
+      height: auto;
+    }
+    .hero h2 {
+      margin-top: 20px;
+      font-size: 28px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: #00bcd4;
+    }
+    section p {
+      text-align: center;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+    .social-links {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      margin: 10px;
+      padding: 12px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      font-size: 16px;
+    }
+    .social-links a i {
+      margin-right: 8px;
+      font-size: 18px;
+    }
+    .social-links a.youtube { background: #ff0000; }
+    .social-links a.facebook { background: #1877f2; }
+    .social-links a.tiktok { background: #000; border: 1px solid #fff; }
+    .social-links a.whatsapp { background: #25d366; }
+    .social-links a.whatsapp-channel { background: #128C7E; }
+    .social-links a:hover { opacity: 0.8; }
+    .location {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 18px;
+      color: #ccc;
+    }
+    .location i {
+      color: #00bcd4;
+      margin-right: 6px;
+    }
+    .map-container {
+      margin: 30px auto 0;
+      max-width: 100%;
+      text-align: center;
+    }
+    .map-container iframe {
+      width: 100%;
+      max-width: 600px;
+      height: 350px;
+      border: none;
+      border-radius: 12px;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    footer a {
+      color: #aaa;
+      text-decoration: none;
+    }
+    footer a:hover {
+      color: #00bcd4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NASH LK</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#travel">Travel</a>
+      <a href="#food">Food</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <!-- Replace logo.png with your logo file -->
+    <img src="logo.jpg" alt="NASH LK Logo" />
+    <h2>Travel & Food Vlogs</h2>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Nash from Sri Lanka. I create travel and food vlogs, exploring beautiful places and delicious dishes around the world. Join me on my journey!</p>
+  </section>
+
+  <section id="travel">
+    <h2>Travel Vlogs</h2>
+    <p>Discover stunning destinations, hidden gems, and travel tips. My travel vlogs capture the beauty of every journey.</p>
+  </section>
+
+  <section id="food">
+    <h2>Food Vlogs</h2>
+    <p>From street food to fine dining, I share my experiences of tasting unique dishes and local flavors everywhere I go.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Follow me on social media:</p>
+    <div class="social-links">
+      <a href="https://youtube.com/@nashlk0726?si=rGUwSGeaw9i1FWW8" class="youtube" target="_blank">
+        <i class="fab fa-youtube"></i> YouTube
+      </a>
+      <a href="https://www.facebook.com/share/14ydbZE7Yh/" class="facebook" target="_blank">
+        <i class="fab fa-facebook"></i> Facebook
+      </a>
+      <a href="https://www.tiktok.com/@user.nash.01?_t=ZS-8zSdBSC1iew&_r=1" class="tiktok" target="_blank">
+        <i class="fab fa-tiktok"></i> TikTok
+      </a>
+      <a href="https://wa.link/bfs2iv" class="whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp Chat
+      </a>
+      <a href="https://whatsapp.com/channel/0029Va9HGoq7tkj7eJR1EM06" class="whatsapp-channel" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp Channel
+      </a>
+    </div>
+    <div class="location">
+      <i class="fas fa-map-marker-alt"></i> udawalawa, Sri Lanka
+    </div>
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63321.74755801615!2d80.8284!3d6.3375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae41d6df26fa6d7%3A0x7f8c7c0f0a8c0c8a!2sEmbilipitiya!5e0!3m2!1sen!2slk!4v1693900000000!5m2!1sen!2slk" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> NASH LK – Travel & Food Vlogs | <i class="fas fa-map-marker-alt"></i> udawalawa, Sri Lanka
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
